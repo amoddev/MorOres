@@ -1,0 +1,38 @@
+ {
+      "item.mor_ores.copper":"Copper Ingot",
+      "item.mor_ores.copper_chunk":"Copper Chunk",
+      "item.mor_ores.copper_chunk_mid":"Copper Chunk",
+      "item.mor_ores.copper_chunk_low":"Copper Chunk",
+
+      "item.mor_ores.tin":"Tin Ingot",
+      "item.mor_ores.tin_chunk":"Tin Chunk",
+      "item.mor_ores.tin_chunk_mid":"Tin Chunk",
+      "item.mor_ores.tin_chunk_low":"Tin Chunk",
+
+      "item.mor_ores.zinc":"Zinc Ingot",
+      "item.mor_ores.zinc_chunk":"Zinc Chunk",
+      "item.mor_ores.zinc_chunk_mid":"Zinc Chunk",
+      "item.mor_ores.zinc_chunk_low":"Zinc Chunk",
+
+      "item.mor_ores.bismuth":"Bismuth Ingot",
+      "item.mor_ores.bismuth_chunk":"Bismuth Chunk",
+      "item.mor_ores.bismuth_chunk_mid":"Bismuth Chunk",
+      "item.mor_ores.bismuth_chunk_low":"Bismuth Chunk",
+
+      "item.mor_ores.aluminium":"Aluminium Ingot",
+      "item.mor_ores.aluminium_chunk":"Aluminium Chunk",
+      "item.mor_ores.aluminium_chunk_mid":"Aluminium Chunk",
+      "item.mor_ores.aluminium_chunk_low":"Aluminium Chunk",
+
+      "item.mor_ores.graphite":"Graphite",
+
+      "item.mor_ores.silicon":"Silicon",
+
+      "item.mor_ores.magnetite":"Magnetite Ingot",
+      "item.mor_ores.magnetite_chunk":"Magnetite Chunk",
+      "item.mor_ores.magnetite_chunk_mid":"Magnetite Chunk",
+      "item.mor_ores.magnetite_chunk_low":"Magnetite Chunk",
+
+      "block.mor_ores.stone_high":"Stone"
+
+ }
