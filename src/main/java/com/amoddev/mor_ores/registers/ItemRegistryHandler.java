@@ -1,10 +1,7 @@
 package com.amoddev.mor_ores.registers;
 
 import com.amoddev.mor_ores.MorOres;
-import com.amoddev.mor_ores.items.CopperChunk;
-import com.amoddev.mor_ores.items.CopperChunkLow;
-import com.amoddev.mor_ores.items.CopperChunkMid;
-import com.amoddev.mor_ores.items.ItemBase;
+import com.amoddev.mor_ores.items.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
@@ -27,7 +24,7 @@ public class ItemRegistryHandler {
     public static final RegistryObject<Item> COPPER_CHUNK_LOW = ITEMS.register("copper_chunk_low", ()-> new CopperChunkLow(new Item.Properties().group(ItemGroup.MISC)));
     //tin
     public static final RegistryObject<Item> TIN = ITEMS.register("tin", ItemBase::new);
-    public static final RegistryObject<Item> TIN_CHUNK = ITEMS.register("tin_chunk", ItemBase::new);
+    public static final RegistryObject<Item> TIN_CHUNK = ITEMS.register("tin_chunk",()-> new TinChunk(new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> TIN_CHUNK_MID = ITEMS.register("tin_chunk_mid", ItemBase::new);
     public static final RegistryObject<Item> TIN_CHUNK_LOW = ITEMS.register("tin_chunk_low", ItemBase::new);
 
