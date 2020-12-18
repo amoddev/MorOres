@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mor_ores:tin_chunk"
+  },
+  "result": "mor_ores:tin",
+  "experience": 0.5,
+  "cookingtime": 150
+}

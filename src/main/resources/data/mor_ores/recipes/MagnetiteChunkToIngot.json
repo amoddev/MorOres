@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mor_ores:magnetite_chunk"
+  },
+  "result": "mor_ores:magnetite",
+  "experience": 1.0,
+  "cookingtime": 170
+}
