@@ -3,6 +3,7 @@ package com.amoddev.mor_ores.registers;
 import com.amoddev.mor_ores.MorOres;
 import com.amoddev.mor_ores.blocks.BlockItemBase;
 import com.amoddev.mor_ores.blocks.StoneHigh;
+import com.amoddev.mor_ores.blocks.StoneLow;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -21,6 +22,9 @@ public class BlockRegistryHandler {
     }
 
     public static final RegistryObject<Block> STONE_HIGH = BLOCKS.register("stone_high", StoneHigh::new);
+    public static final RegistryObject<Block> STONE_LOW = BLOCKS.register("stone_low", StoneLow::new);
 
     public static final RegistryObject<Item> STONE_HIGH_ITEM = ITEMS.register("stone_high",()-> new BlockItemBase(STONE_HIGH.get()));
+    public static final RegistryObject<Item> STONE_LOW_ITEM = ITEMS.register("stone_low",()-> new BlockItemBase(STONE_LOW.get()));
+
 }

@@ -21,7 +21,9 @@ public class MorOreGen {
     @SubscribeEvent
     public static void generateOres(FMLLoadCompleteEvent event){
         for (Biome biome : ForgeRegistries.BIOMES){
-            genOre(biome,32, 1,5,155,OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockRegistryHandler.STONE_HIGH.get().getDefaultState(),16);
+            genOre(biome,16, 1,5,155,OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockRegistryHandler.STONE_HIGH.get().getDefaultState(),8);
+
+            genOre(biome,24, 1,5,155,OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockRegistryHandler.STONE_LOW.get().getDefaultState(),16);
         }
     }
     private static void genOre(Biome biome, int count,int bottomOffset ,int topOffset, int max, OreFeatureConfig.FillerBlockType fillerBlockType, BlockState defautBlockstate,int size){

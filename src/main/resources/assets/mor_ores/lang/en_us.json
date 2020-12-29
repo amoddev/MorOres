@@ -39,6 +39,7 @@
       "item.mor_ores.magnetite_chunk_low":"Magnetite Chunk",
       "item.mor_ores.magnetite_nug":"Magnetite Nugget",
 
+      "block.mor_ores.stone_low":"Stone",
       "block.mor_ores.stone_high":"Stone"
 
  }
