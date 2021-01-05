@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "mor_ores:bismuth_nug"
+    }
+  },
+  "result": {
+    "item": "mor_ores:bismuth"
+  }
+}
