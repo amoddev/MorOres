@@ -7,10 +7,10 @@
   ],
   "key": {
     "x": {
-      "item": "morores:tin_nug"
+      "item": "mor_ores:tin_nug"
     }
   },
   "result": {
-    "item": "morores:tin"
+    "item": "mor_ores:tin"
   }
 }

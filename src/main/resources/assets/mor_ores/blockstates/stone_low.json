@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "mor_ores:block/stone_high" }
+    "": { "model": "mor_ores:block/stone_low" }
   }
 }
