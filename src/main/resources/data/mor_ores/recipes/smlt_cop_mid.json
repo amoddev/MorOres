@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient" : {
+    "item": "mor_ores:copper_chunk_mid"
+  },
+  "result": {
+    "item": "mor_ores:copper_nug",
+    "count": 6,
+    "experience": 5.0,
+    "cookingtime": 50
+  }
+}

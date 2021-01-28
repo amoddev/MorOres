@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mor_ores:blocks/stone_high"
+    "all": "mor_ores:blocks/stone_low"
   }
 }

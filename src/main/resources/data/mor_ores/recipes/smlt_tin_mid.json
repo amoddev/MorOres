@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient" : {
+    "item": "mor_ores:tin_chunk_mid"
+  },
+  "result": {
+    "item": "mor_ores:tin_nug",
+    "count": 6,
+    "experience": 5.0,
+    "cookingtime": 50
+  }
+}

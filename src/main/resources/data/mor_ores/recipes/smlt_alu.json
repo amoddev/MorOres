@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient" : {
+    "item": "mor_ores:aluminium_chunk"
+  },
+  "result": {
+    "item": "mor_ores:aluminium",
+    "count": 1,
+    "experience": 5.0,
+    "cookingtime": 50
+  }
+}
